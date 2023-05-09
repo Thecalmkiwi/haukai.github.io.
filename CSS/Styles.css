@@ -1,0 +1,67 @@
+/* for the font of all text */
+body{
+    font-family: 'Arial';  
+  }
+  
+  /* margin around the wbesite */
+  .wrapper{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    
+  }
+  
+  header{
+    width: 100%;
+    height: 100px;
+    background-color:rgba(3, 184, 135, 0.886);
+    
+  }
+  
+  .logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+  }
+  .logo a{
+    text-decoration: none;
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+     
+  }
+  nav{
+    float:right ;
+    line-height: 100px;
+  }
+  nav a{
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 30px;
+    color: rgb(8, 0, 0) ;
+    padding: 36px;
+    margin: 0 1px
+  
+  }
+  nav a:hover{
+    background-color: rgb(14, 14, 14);
+    color:rgb(250, 248, 248)
+  
+  }
+  
+  .banner-area{
+    background-color:rgba(3, 184, 135, 0.886);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    width: 100%;
+  }
+  
+  .banner-area h2{
+    padding-top: 2%;
+    font-size: 80px;
+    color:rgb(1, 21, 9);
+    text-align:center ;
+    padding-bottom: 2%;
+    
+  }
